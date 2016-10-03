@@ -91,7 +91,7 @@ public void speed(int change){
 	return;
 }
 public String toString(){
-	return "name= " + this.name + " position= " + this.positionx + " " + this.positiony 
+	return "name= " + this.name + " position= " + this.positionx + " , " + this.positiony 
 			        + " speed= " + this.speed + " orientattion= " + this.orientation;
 }
 	public static void main(String[] args) {
