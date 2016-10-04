@@ -1,5 +1,5 @@
 
-public class Robot {
+public class Robot  {
 	private String name;
 	private int positionx;
 	private int positiony;
