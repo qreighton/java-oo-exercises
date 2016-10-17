@@ -1,10 +1,10 @@
 
 public class Robot  {
-	private String name;
-	private int positionx;
-	private int positiony;
-	private int speed;
-	private String orientation;
+	protected String name;
+	protected int positionx;
+	protected int positiony;
+	protected int speed;
+	protected String orientation;
 	
 public Robot(String name,int positionx,int positiony,int speed,String orientation)
 {
@@ -19,6 +19,8 @@ public int getPositionx(){return this.positionx;}
 public int getPositiony(){return this.positiony;}
 public int getSpeed(){return this.speed;}
 public String getOrientation(){return this.orientation;}
+
+public void setSpeed(int speed){this.speed = speed;}
 
 public void move()
 {
